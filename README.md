@@ -4,24 +4,24 @@ survivor rescue scenario with the help of common Python libraries.
 
 ## Scenario
 ```
-Swarm of Drones (UAV)			nD
-Detect ground survivors		nS
+Swarm of Drones (UAV)     nD
+Detect ground survivors   nS
 Rescue them
-Fixed range							  R
-Fixed test area					  L x L
+Fixed range               R
+Fixed test area           L x L
 Random distribution
 Random walk by drones
 ```
 
 ## Solution
 ```
-Class for UAV							UAV.py
-Class for Survivors					survivor.py
-Functions for chaos					chaos.py
-Define constants						constants.py
+Class for UAV               UAV.py
+Class for Survivors         survivor.py
+Functions for chaos         chaos.py
+Define constant             constants.py
 Global variables						constants.py
-Real-time simulation				main.py
-Plotting the results					plotter.py
+Real-time simulation        main.py
+Plotting the results        plotter.py
 ```
 
 ### UAV class
