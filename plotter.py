@@ -1,8 +1,7 @@
 import matplotlib.pyplot as plt
 
 f= open('out.txt', 'r')
-N= []
-T= []
+N, T= [], []
 
 for line in f:
     l = line.split(',')

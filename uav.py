@@ -4,12 +4,6 @@ import threading
 from chaos import *
 
 class UAV():
-    ID= None
-    x= None
-    y= None
-    velx = None
-    vely= None
-    rescued = None
 
     def __init__(self, ID, x, y, velx, vely):
         self.ID= ID
