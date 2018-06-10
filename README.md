@@ -19,7 +19,7 @@ Class for UAV               UAV.py
 Class for Survivors         survivor.py
 Functions for chaos         chaos.py
 Define constant             constants.py
-Global variables						constants.py
+Global variables            constants.py
 Real-time simulation        main.py
 Plotting the results        plotter.py
 ```
@@ -45,9 +45,9 @@ search_survivors	Search for survivors
 ### Survivor class
 ```
 Data members:
-ID								unique identity
-position					x, y
-marked_safe				whether rescued
+ID                unique identity
+position          x, y
+marked_safe       whether rescued
 ```
 
 ### Randomness
@@ -80,10 +80,10 @@ search_survivors():
 
 ### Defining Global variables
 ```
-DRONES			List of drone objects
-SURVIVORS		List of survivor objects
-missions			List of parallel threads
-output_file		File for logging output
+DRONES        List of drone objects
+SURVIVORS     List of survivor objects
+missions      List of parallel threads
+output_file   File for logging output
 ```
 
 ### Creating objects
